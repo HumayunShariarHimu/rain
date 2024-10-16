@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: #0d0d0d; /* Dark background */
+}
+
+#thunderstorm {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.raindrop {
+  position: absolute;
+  background-image: linear-gradient(to bottom, #0036, #8cef);
+  width: 3px;
+  height: 20px;
+  opacity: 0;
+}
+
+#lightning {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #eef;
+  opacity: 0;
+}
